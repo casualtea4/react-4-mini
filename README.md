@@ -250,7 +250,7 @@ In this step, we'll change our `Post` view to use the route parameter to display
 
 * Open `Post.js`.
 * Update the `find` method in `componentDidMount` to use the `params` data instead of being hard-coded to the number 2.
-  * Remember routing data, like parameters, is found on props.
+  * Remember routing d=ata, like parameters, is found on props.
   * IMPORTANT: parameters are strings (because they are a part of the URL). The ids of our posts are numbers, so be careful when comparing them.
 
 ### Solution
